@@ -3,12 +3,11 @@
   <head>
     <title>Applee</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./main.scss" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="./src/index.js"></script>
   </head>
 
-  <body>
+  <body class="page">
     <div class="promo">
       <div class="container promo__content">
         <h1 class="promo__title">Mate academy</h1>
@@ -18,24 +17,33 @@
       </div>
     </div>
     
-    <header class="header">
+    <header class="header page__header">
       <nav class="nav container">
         <input type="checkbox" class="nav__toggler" id="nav-toggler"/>
         <label class="nav__toggler-label" for="nav-toggler"></label>
-    
+
+        <div class="nav__price">
+          <div class="nav__price-name"></div>
+          <div class="nav__price-value"></div>
+        </div>
+
         <ul class="nav__list">
           <li class="nav__item">
             <a class="nav__link" href="/">Home</a>
           </li>
+
           <li class="nav__item">
             <a class="nav__link" href="/mac">Mac</a>
           </li>
+
           <li class="nav__item">
             <a class="nav__link" href="/ipad">iPad</a>
           </li>
+
           <li class="nav__item">
             <a class="nav__link" href="/iphone">iPhone</a>
           </li>
+
           <li class="nav__item">
             <a class="nav__link" href="/watch">Watch</a>
           </li>
@@ -68,7 +76,7 @@
       </div>
     </main>
     
-    <footer class="footer">
+    <footer class="footer page__footer">
       <div class="container footer__content">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, animi cumque est illum minus necessitatibus nihil, nulla praesentium repellendus sunt, tenetur vel. Architecto corporis dignissimos illo iure modi. At atque cumque doloremque dolores doloribus, eveniet, ex inventore iusto labore laboriosam laudantium molestias non obcaecati possimus qui quo rem repellendus? Nesciunt, optio repudiandae! Ab accusamus ad aliquam beatae, blanditiis debitis dignissimos doloribus dolorum facilis fugiat in inventore maiores nostrum odit omnis perferendis perspiciatis possimus praesentium, provident, quae quam quas qui repellendus sint soluta sunt ullam. Officia quidem quisquam rem repellat! Aperiam debitis, vel? Aliquam amet aut eius magnam quidem saepe voluptate!
       </div>

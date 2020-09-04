@@ -8,5 +8,9 @@
     "build": "parcel build index.html"
   },
   "dependencies": {},
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.10"
+  }
 }
